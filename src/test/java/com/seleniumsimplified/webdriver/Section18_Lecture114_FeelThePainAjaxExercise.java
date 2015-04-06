@@ -27,7 +27,6 @@ public class Section18_Lecture114_FeelThePainAjaxExercise{
 		FirefoxProfile profile = new FirefoxProfile();
 		profile.setPreference("network.proxy.type", 0);
 		driver = new FirefoxDriver(profile);
-        PageFactory.initElements();
 	}
 	
 	@Before

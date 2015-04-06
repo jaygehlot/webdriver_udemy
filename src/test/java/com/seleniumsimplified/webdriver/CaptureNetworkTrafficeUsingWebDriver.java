@@ -20,7 +20,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 public class CaptureNetworkTrafficeUsingWebDriver {
 	
 	private static WebDriver driver;
-	private final static String webSite = "http://www-a.yellqatest.com";
+	private final static String webSite = "http://www.yell.com";
 	private static ProxyServer server;
 	
 	@Test
